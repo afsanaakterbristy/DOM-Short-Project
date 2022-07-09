@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>devs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+         <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h2> Add devs</h2>
+                    <hr>
+                    <form id="devs_form">
+                        <div class="form-group">
+                            <label for="">Name</label>
+                            <input name="name" type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <br>
+                            <label for="">Skills</label>
+                            <hr>
+                            <input name="skill" type="checkbox" value="React Developer" id="react"><label for="react">React</label>
+                            <input name="skill"  type="checkbox" value="Laravel Developer" id="Laravel"><label for="Laravel">Laravel</label>
+                            <input name="skill"  type="checkbox" value="IOS Developer" id="IOS"><label for="IOS">IOS</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <br>
+                            <label for="">Gender</label>
+                            <hr>
+                            <input type="radio" name="gender"value="Male" id="Male"><label for="Male">Male</label>
+                            <input type="radio" name="gender"value="Female" id="Female"><label for="Female">Female</label>
+                        
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Photo</label>
+                            <input name="photo" type="text" class="form-control" placeholder="photo">
+                        </div>
+
+                        <div class="form-group">
+            
+                            <input name="submit" type="submit" class="btn btn-primary btn-block" value="Add new Devs">
+                        </div>
+                    </form>
+                </div>
+            </div>
+         </div>
+         <br>
+         <br>
+         <div class="devs">
+         <div class="col-md-9">
+            <div class="row devs-area">
+            </div>
+                </div>
+            </div>
+         </div>
+        </div>
+        
+      
+    </div>
+    <script src="./index.js"></script>
+    <script src="./function.js"></script>
+   
+</body>
+</html>

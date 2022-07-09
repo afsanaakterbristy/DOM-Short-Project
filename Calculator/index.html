@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+  <link rel="shortcut icon" href="index.png" type="image/x-icon">
+</head>
+<body>
+  <div class="cal shadow">
+    <div class="monitor">
+      <div class="top-monitor">0 </div>
+        <div class="main-monitor"></div>
+      </div>
+   
+    <div class="button">
+      <button style="width:50%" onclick="allclear()">AC</button>
+      <button style="width:50%" onclick="back()">C</button>
+      <button onclick="valGet(7)">7</button>
+      <button onclick="valGet(8)">8</button>
+      <button onclick="valGet(9)">9</button>
+      <button onclick="valGet('/')">/</button>
+      <button onclick="valGet(4)">4</button>
+      <button onclick="valGet(5)">5</button>
+      <button onclick="valGet(6)">6</button>
+      <button onclick="valGet('*')">*</button>
+      <button onclick="valGet(1)">1</button>
+      <button onclick="valGet(2)">2</button>
+      <button onclick="valGet(3)">3</button>
+      <button onclick="valGet('+')">+</button>
+      <button onclick="valGet(0)">0</button>
+      <button onclick="valGet('.')">.</button>
+      <button onclick="finalRes()">=</button>
+      <button onclick="valGet('-')">-</button>
+    </div>
+  </div>
+  <a href=""></a>
+    <script src="./index.js"></script>
+    <script src="./function.js"></script>
+   
+</body>
+</html>
