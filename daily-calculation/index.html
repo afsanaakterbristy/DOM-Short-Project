@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Daily-Calculation</title>
+</head>
+<body>
+    <div  class="container mt-10 mx-10 items-center">
+        <h1 class="text-center m-10 font-bold text-4xl text-red-600">Daily calculator</h1>
+<div class="grid grid-cols-2 ">
+    <div class="ml-12">
+        <img class="ml-12" src="https://images.unsplash.com/photo-1645731504636-72725e46b26b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW9uZXklMjBjYWxjdWxhdGlvbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=600&q=60"
+            alt="">
+    </div>
+    <div class="bg-gray-200">
+        <h1 class=" ml-5 font-bold my-4">Income</h1>
+        <label class="mx-5"  for="">Income:</label><input id="income" class="bg-gray-400 rounded" type="text">
+        <h1 class="font-bold my-3 ml-5 ">Expenses</h1>
+        <label class="mx-7" for="">Food:</label><input id="food" class="mb-4 bg-gray-400 rounded" type="text"><br>
+        <label  class="mx-7" for="">Rent:</label><input id="rent" class="mb-4 ml-1 bg-gray-400 rounded" type="text"><br>
+        <label class="mx-5 " for="">Clothes:</label><input id="clothes" class="bg-gray-400 rounded" type="text"><br>
+
+        <button id="calculate" class="bg-blue-500 ml-5 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded my-6">Calculate</button>
+        <h3 class="font-bold my-3 ml-5 ">Total Expense: <span id="total-expense" >00</span></h3>
+        <h3 class="font-bold my-3 ml-5 ">Balance: <span id="balance">00</span></h3>
+        <label class="mx-7" for="">Save:</label><input id="save-input" class="mb-4 ml-1 bg-gray-400 rounded w-12"  type="text"><span class="font-bold mx-2"> % </span>
+        <button id="save"  class="bg-blue-500 ml-5 hover:bg-blue-700 text-white font-bold py-0 px-3 rounded my-5">Save</button>
+
+        <h3 class="font-bold my-3 ml-5 ">Saving Amount: <span id="saving-amount" >00</span></h3>
+        <h3 class="font-bold my-3 ml-5 ">Remaining Blance: <span id="remaining">00</span></h3>
+
+
+    </div>
+</div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

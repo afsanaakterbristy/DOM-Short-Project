@@ -2,7 +2,7 @@
 
 function updateNumber(isIncrese) {
      const caseNumberField = document.getElementById('case-number-field');
-    const caseNumberString = caseNumberField.value;
+     const caseNumberString = caseNumberField.value;
     const previouscaseNumber = parseInt(caseNumberString);
     let newcaseNumber;
     if (isIncrese ===true) {

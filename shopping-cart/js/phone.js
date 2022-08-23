@@ -1,4 +1,4 @@
-// function
+// function 
 
 function updateNumberPhone(isIncrese) {
      const phoneNumberField = document.getElementById('phone-number-field');
